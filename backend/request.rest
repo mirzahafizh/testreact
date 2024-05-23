@@ -1,0 +1,14 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+###
+POSt http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Mirza Hafizh",
+    "email": "mirzafio78@gmail.com",
+    "gender": "male",
+    "password": "admin"
+}
